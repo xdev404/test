@@ -8,3 +8,19 @@ h1 {
     color: red;
     background-color: aqua;
 }
+
+.bravo {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: bravo 1s infinite;
+}
+
+@keyframes bravo {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
