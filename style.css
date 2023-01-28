@@ -3,30 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.main-div {
+.navbar {
+    display: flex;
     width: 100vw;
-    height: auto;
-    background-color: grey;
+    height: 2rem;
+    background-color: rgb(63, 63, 63);
+    color: rgb(216, 215, 215);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-weight: 300;
+    align-items: center;
+}
+.ft-nav ul, .sd-nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 4px;
+    /* padding: 0 0 1px 0; */
+}
+.ft-nav ul li, .sd-nav ul li {
+    margin: 4px;
+    padding: 0 0 4px 0;
 }
 
-h1 {
-    color: red;
-    background-color: aqua;
-}
-
-.bravo {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    animation: bravo 1s infinite;
-}
-
-@keyframes bravo {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(90deg);
-    }
+.sd-nav {
+    float: right;
+    justify-content: flex-end;
 }
