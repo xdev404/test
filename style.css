@@ -13,6 +13,7 @@
     text-transform: capitalize;
     font-weight: 300;
     align-items: center;
+    justify-content: space-between;
 }
 .ft-nav ul, .sd-nav ul {
     display: flex;
@@ -26,8 +27,28 @@
 }
 
 .sd-nav {
-    position: relative;
-    left: 4rem;
+    width: ;
+    height: auto;
+    border: 1px solid red;
+    /* position: relative; */
+    /* left: 4rem; */
     float: left;
 
+}
+
+.nav1 {
+    width: 100vw;
+    height: 46px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nava1, .nava2 ul {
+    display: flex;
+}
+
+.nava2 {
+    align-self: ;
 }
